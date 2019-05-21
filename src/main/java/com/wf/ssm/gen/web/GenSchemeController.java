@@ -63,7 +63,7 @@ public class GenSchemeController extends BaseController {
 	@RequestMapping(value = "form")
 	public String form(GenScheme lnGenScheme, Model model) {
 		if (StringUtils.isBlank(lnGenScheme.getPackageName())){
-			lnGenScheme.setPackageName("com.lnint.jess.modules");
+			lnGenScheme.setPackageName("com.wf.ssm.modules");
 		}
 //		if (StringUtils.isBlank(genScheme.getFunctionAuthor())){
 //			genScheme.setFunctionAuthor(UserUtils.getUser().getName());
